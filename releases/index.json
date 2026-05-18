@@ -1,8 +1,47 @@
 {
-  "versions": {},
+  "versions": {
+    "0.1.0": {
+      "production": {
+        "timestamp": "2026-05-18T19:48:35.781Z",
+        "files": [
+          "Gymbrot_0.1.0_x64-setup.exe",
+          "checksums.txt"
+        ],
+        "sha256": {
+          "Gymbrot_0.1.0_x64-setup.exe": "cc9a42f796c57f58e732be2b0fe02c5e7ecc689f77b26a8da99d22f86603af4c"
+        }
+      }
+    },
+    "testing-20260518-04a0059": {
+      "testing": {
+        "timestamp": "2026-05-18T18:44:28.202Z",
+        "files": [
+          "Gymbrot TEST_0.1.0_x64-setup.exe",
+          "checksums.txt"
+        ],
+        "sha256": {
+          "Gymbrot": "2368e6b343bc7f1ef73a62d8fbb71da61d6ba64f3c58d9870e698063b1e8cee3"
+        }
+      }
+    },
+    "testing-20260518-0520b88": {
+      "testing": {
+        "timestamp": "2026-05-18T19:46:39.813Z",
+        "files": [
+          "Gymbrot TEST_0.1.0_x64-setup.exe",
+          "checksums.txt"
+        ],
+        "sha256": {
+          "Gymbrot": "1c984bbbdd230465f33e84169965080b9f34014bde85cf777e293fa4b528356b"
+        }
+      }
+    }
+  },
   "latest": null,
   "latestEnvironments": {
     "production": null,
     "testing": null
-  }
+  },
+  "latestProduction": "0.1.0",
+  "latestTesting": "testing-20260518-0520b88"
 }
