@@ -8,8 +8,8 @@ Descargas oficiales de **Gymbrot** para Windows Desktop.
 
 | Versión | Windows |
 |---------|---------|
-| Production | [Descargar](releases/production/) |
-| Testing | [Descargar](releases/testing/) |
+| Production | [Descargar](https://github.com/VeluxSoft-org/gymbrot-releases/releases/latest) |
+| Testing | [Descargar](https://github.com/VeluxSoft-org/gymbrot-releases/releases) |
 
 ## 🔍 Verificar Integridad
 
