@@ -1,8 +1,23 @@
 {
-  "versions": {},
+  "versions": {
+    "0.1.0": {
+      "production": {
+        "timestamp": "2026-05-18T18:44:16.294Z",
+        "files": [
+          "Gymbrot_0.1.0_x64-setup.exe",
+          "checksums.txt"
+        ],
+        "sha256": {
+          "Gymbrot_0.1.0_x64-setup.exe": "71b42520b0f337721ec7169e80771d575d7f6b8b72df4c3519a7563071e059eb"
+        }
+      }
+    }
+  },
   "latest": null,
   "latestEnvironments": {
     "production": null,
     "testing": null
-  }
+  },
+  "latestProduction": "0.1.0",
+  "latestTesting": null
 }

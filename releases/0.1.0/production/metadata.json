@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "environment": "production",
+  "platform": "windows-x64",
+  "installerType": "nsis",
+  "builtAt": "2026-05-18T18:44:16.293Z",
+  "files": [
+    "Gymbrot_0.1.0_x64-setup.exe",
+    "checksums.txt"
+  ]
+}
