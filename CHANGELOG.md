@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260518-5d1750f] — 2026-05-18 · 🧪 Testing
+
+- Release testing-20260518-5d1750f para entorno testing
+
 ## [testing-20260518-2bf78b5] — 2026-05-18 · 🧪 Testing
 
 - Release testing-20260518-2bf78b5 para entorno testing
