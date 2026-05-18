@@ -2,13 +2,13 @@
   "versions": {
     "0.1.0": {
       "production": {
-        "timestamp": "2026-05-18T20:03:01.917Z",
+        "timestamp": "2026-05-18T20:21:26.317Z",
         "files": [
           "Gymbrot_0.1.0_x64-setup.exe",
           "checksums.txt"
         ],
         "sha256": {
-          "Gymbrot_0.1.0_x64-setup.exe": "227029214e9e43ca656b284ee545111b7ac69a834c0bdaeb0808e1bd6f453384"
+          "Gymbrot_0.1.0_x64-setup.exe": "91ddb707effdd5017af584e851877dc7fba63c4d7d5590f1cc905536a122dcee"
         }
       }
     },
