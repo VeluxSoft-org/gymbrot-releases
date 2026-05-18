@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnpm/
+.npmrc
+
+# Build outputs
+dist/
+build/
+out/
+
+# Executables (backups)
+*.exe.bak
+*.dmg.bak
+
+# Environment
+.env
+.env.local
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Temporary
+temp/
+tmp/
+*.tmp
