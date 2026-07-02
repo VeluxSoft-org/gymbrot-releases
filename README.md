@@ -4,12 +4,12 @@ Descargas oficiales de **Gymbrot** para Windows Desktop.
 
 ## ⬇️ Descargar
 
-**Última versión**: testing-20260702-8d74715
+**Última versión**: testing-20260702-8e30e6c
 
 | Versión | Windows |
 |---------|---------|
 | Production | [Descargar](https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/v0.1.0/Gymbrot_0.1.0_x64-setup.exe) |
-| Testing | [Descargar](https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/testing-20260702-8d74715/Gymbrot.TEST_0.1.0_x64-setup.exe) |
+| Testing | [Descargar](https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/testing-20260702-8e30e6c/Gymbrot.TEST_0.1.0_x64-setup.exe) |
 
 ## 🔍 Verificar Integridad
 
