@@ -4,6 +4,10 @@
 
 - Release testing-20260703-0185dfb para entorno testing
 
+## [testing-20260703-0185dfb] — 2026-07-03 · 🧪 Testing
+
+- Release testing-20260703-0185dfb para entorno testing
+
 ## [testing-20260703-2bc23b9] — 2026-07-03 · 🧪 Testing
 
 - Release testing-20260703-2bc23b9 para entorno testing
