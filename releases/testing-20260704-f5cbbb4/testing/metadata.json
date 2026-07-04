@@ -3,7 +3,7 @@
   "environment": "testing",
   "platform": "windows-x64",
   "installerType": "nsis",
-  "builtAt": "2026-07-04T20:09:26.313Z",
+  "builtAt": "2026-07-04T20:09:44.557Z",
   "files": [
     "Gymbrot TEST_0.1.0_x64-setup.exe",
     "checksums.txt"
