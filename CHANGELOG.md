@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260706-062b364] — 2026-07-06 · 🧪 Testing
+
+- Release testing-20260706-062b364 para entorno testing
+
 ## [testing-20260704-f5cbbb4] — 2026-07-04 · 🧪 Testing
 
 - Release testing-20260704-f5cbbb4 para entorno testing
