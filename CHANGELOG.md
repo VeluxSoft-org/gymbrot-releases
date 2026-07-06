@@ -4,6 +4,10 @@
 
 - Release testing-20260706-1cef2c1 para entorno testing
 
+## [testing-20260706-1cef2c1] — 2026-07-06 · 🧪 Testing
+
+- Release testing-20260706-1cef2c1 para entorno testing
+
 ## [testing-20260706-d5521b0] — 2026-07-06 · 🧪 Testing
 
 - Release testing-20260706-d5521b0 para entorno testing
