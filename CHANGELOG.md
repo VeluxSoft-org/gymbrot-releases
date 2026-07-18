@@ -4,6 +4,10 @@
 
 - Release testing-20260717-4ab8fb2 para entorno testing
 
+## [testing-20260717-4ab8fb2] — 2026-07-18 · 🧪 Testing
+
+- Release testing-20260717-4ab8fb2 para entorno testing
+
 ## [testing-20260717-a00a741] — 2026-07-17 · 🧪 Testing
 
 - Release testing-20260717-a00a741 para entorno testing
