@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260719-ce4471e] — 2026-07-19 · 🧪 Testing
+
+- Release testing-20260719-ce4471e para entorno testing
+
 ## [testing-20260719-c7e7d5b] — 2026-07-19 · 🧪 Testing
 
 - Release testing-20260719-c7e7d5b para entorno testing
