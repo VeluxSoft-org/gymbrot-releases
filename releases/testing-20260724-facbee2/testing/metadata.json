@@ -1,0 +1,11 @@
+{
+  "version": "testing-20260724-facbee2",
+  "environment": "testing",
+  "platform": "windows-x64",
+  "installerType": "nsis",
+  "builtAt": "2026-07-24T17:47:14.049Z",
+  "files": [
+    "Gymbrot TEST_0.1.0_x64-setup.exe",
+    "checksums.txt"
+  ]
+}
