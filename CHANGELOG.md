@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260724-993c126] — 2026-07-24 · 🧪 Testing
+
+- Release testing-20260724-993c126 para entorno testing
+
 ## [testing-20260724-facbee2] — 2026-07-24 · 🧪 Testing
 
 - Release testing-20260724-facbee2 para entorno testing
