@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260731-da1e590] — 2026-07-31 · 🧪 Testing
+
+- Release testing-20260731-da1e590 para entorno testing
+
 ## [testing-20260730-81eebca] — 2026-07-30 · 🧪 Testing
 
 - Release testing-20260730-81eebca para entorno testing
