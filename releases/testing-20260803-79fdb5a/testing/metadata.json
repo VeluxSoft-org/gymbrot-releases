@@ -1,0 +1,11 @@
+{
+  "version": "testing-20260803-79fdb5a",
+  "environment": "testing",
+  "platform": "windows-x64",
+  "installerType": "nsis",
+  "builtAt": "2026-08-03T19:17:15.695Z",
+  "files": [
+    "Gymbrot TEST_0.1.0_x64-setup.exe",
+    "checksums.txt"
+  ]
+}
