@@ -4,6 +4,10 @@
 
 - Release testing-20260804-c599b5d para entorno testing
 
+## [testing-20260804-c599b5d] — 2026-08-04 · 🧪 Testing
+
+- Release testing-20260804-c599b5d para entorno testing
+
 ## [testing-20260804-4efdfbd] — 2026-08-04 · 🧪 Testing
 
 - Release testing-20260804-4efdfbd para entorno testing
