@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.0] — 2026-08-05 · 🚀 Production
+
+- Release 0.1.0 para entorno production
+
 ## [testing-20260804-c599b5d] — 2026-08-04 · 🧪 Testing
 
 - Release testing-20260804-c599b5d para entorno testing
