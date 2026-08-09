@@ -4,6 +4,10 @@
 
 - Release testing-20260809-e20fd57 para entorno testing
 
+## [testing-20260809-e20fd57] — 2026-08-09 · 🧪 Testing
+
+- Release testing-20260809-e20fd57 para entorno testing
+
 ## [testing-20260809-5ccca50] — 2026-08-09 · 🧪 Testing
 
 - Release testing-20260809-5ccca50 para entorno testing
