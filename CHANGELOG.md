@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260809-5ccca50] — 2026-08-09 · 🧪 Testing
+
+- Release testing-20260809-5ccca50 para entorno testing
+
 ## [testing-20260808-5f088ac] — 2026-08-08 · 🧪 Testing
 
 - Release testing-20260808-5f088ac para entorno testing
