@@ -4,6 +4,10 @@
 
 - Release 0.1.0 para entorno production
 
+## [0.1.0] — 2026-08-10 · 🚀 Production
+
+- Release 0.1.0 para entorno production
+
 ## [testing-20260810-695ddde] — 2026-08-10 · 🧪 Testing
 
 - Release testing-20260810-695ddde para entorno testing
