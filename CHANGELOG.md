@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260812-a8431fe] — 2026-08-12 · 🧪 Testing
+
+- Release testing-20260812-a8431fe para entorno testing
+
 ## [testing-20260812-3357992] — 2026-08-12 · 🧪 Testing
 
 - Release testing-20260812-3357992 para entorno testing
