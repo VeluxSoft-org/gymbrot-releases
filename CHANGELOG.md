@@ -4,6 +4,10 @@
 
 - Release testing-20260812-438b506 para entorno testing
 
+## [testing-20260812-438b506] — 2026-08-12 · 🧪 Testing
+
+- Release testing-20260812-438b506 para entorno testing
+
 ## [testing-20260811-8f57d1e] — 2026-08-11 · 🧪 Testing
 
 - Release testing-20260811-8f57d1e para entorno testing
