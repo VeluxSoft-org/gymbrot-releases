@@ -4,6 +4,10 @@
 
 - Release testing-20260815-85d1ef9 para entorno testing
 
+## [testing-20260815-85d1ef9] — 2026-08-15 · 🧪 Testing
+
+- Release testing-20260815-85d1ef9 para entorno testing
+
 ## [testing-20260815-cdd2dbc] — 2026-08-15 · 🧪 Testing
 
 - Release testing-20260815-cdd2dbc para entorno testing
