@@ -4,7 +4,7 @@ Descargas oficiales de **Gymbrot** para Windows Desktop.
 
 ## ⬇️ Descargar
 
-**Última versión**: testing-20260815-85d1ef9
+**Última versión**: 0.1.0
 
 | Versión | Windows |
 |---------|---------|
