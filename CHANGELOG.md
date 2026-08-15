@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260815-cdd2dbc] — 2026-08-15 · 🧪 Testing
+
+- Release testing-20260815-cdd2dbc para entorno testing
+
 ## [0.1.0] — 2026-08-12 · 🚀 Production
 
 - Release 0.1.0 para entorno production
