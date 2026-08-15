@@ -3,7 +3,7 @@
   "environment": "production",
   "platform": "windows-x64",
   "installerType": "nsis",
-  "builtAt": "2026-08-15T03:23:53.757Z",
+  "builtAt": "2026-08-15T03:25:01.107Z",
   "files": [
     "GymBrot_0.1.0_x64-setup.exe",
     "checksums.txt"
