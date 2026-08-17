@@ -971,6 +971,18 @@
           "Gymbrot": "94aed8247eca115130b605901ec665c7882e85af026fb2adc8605f762e0621cd"
         }
       }
+    },
+    "testing-20260817-ae3e65e": {
+      "testing": {
+        "timestamp": "2026-08-17T03:47:59.580Z",
+        "files": [
+          "Gymbrot TEST_0.1.0_x64-setup.exe",
+          "checksums.txt"
+        ],
+        "sha256": {
+          "Gymbrot": "b8fbf36e53e7a311653588c38c84f4af8071775d0e46782533a34d07b6019c88"
+        }
+      }
     }
   },
   "latest": null,
@@ -979,5 +991,5 @@
     "testing": null
   },
   "latestProduction": "0.1.0",
-  "latestTesting": "testing-20260817-a9dfc1c"
+  "latestTesting": "testing-20260817-ae3e65e"
 }
