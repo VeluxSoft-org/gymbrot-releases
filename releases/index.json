@@ -2,13 +2,13 @@
   "versions": {
     "0.1.0": {
       "production": {
-        "timestamp": "2026-08-15T03:25:01.109Z",
+        "timestamp": "2026-08-17T02:59:02.188Z",
         "files": [
           "GymBrot_0.1.0_x64-setup.exe",
           "checksums.txt"
         ],
         "sha256": {
-          "GymBrot_0.1.0_x64-setup.exe": "5b2d70d80028737ae21452425de06022602f80b91bb270b1bccba33274490ee9"
+          "GymBrot_0.1.0_x64-setup.exe": "008aa1d238d9f21dbe053c2f4dd5cb32666d5ca989c2af222a8e30d043bcbec1"
         }
       }
     },
