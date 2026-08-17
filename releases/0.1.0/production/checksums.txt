@@ -1,1 +1,1 @@
-008aa1d238d9f21dbe053c2f4dd5cb32666d5ca989c2af222a8e30d043bcbec1  GymBrot_0.1.0_x64-setup.exe
+3459a2bfb5f3989378bf4eeeda9d8061507ed98211ae9a7e368751ef35860eb1  GymBrot_0.1.0_x64-setup.exe
