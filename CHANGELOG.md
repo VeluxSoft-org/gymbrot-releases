@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260817-a9dfc1c] — 2026-08-17 · 🧪 Testing
+
+- Release testing-20260817-a9dfc1c para entorno testing
+
 ## [testing-20260817-34b6baa] — 2026-08-17 · 🧪 Testing
 
 - Release testing-20260817-34b6baa para entorno testing
