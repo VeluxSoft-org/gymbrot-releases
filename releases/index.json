@@ -1058,13 +1058,13 @@
     },
     "testing-20260906-a91c1fb": {
       "testing": {
-        "timestamp": "2026-09-06T22:18:56.837Z",
+        "timestamp": "2026-09-06T22:23:33.359Z",
         "files": [
           "Gymbrot TEST_0.1.0_x64-setup.exe",
           "checksums.txt"
         ],
         "sha256": {
-          "Gymbrot": "743dac8404fafdc207d8952d47424e3db1fd44946c7de73c1b0eecd8cbffa05f"
+          "Gymbrot": "921b37acad9e01b8593c4dcd3c9c0414c85beaeda9ae6c470e6dfa249579a22f"
         }
       }
     }

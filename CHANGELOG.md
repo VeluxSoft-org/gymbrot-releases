@@ -4,6 +4,10 @@
 
 - Release testing-20260906-a91c1fb para entorno testing
 
+## [testing-20260906-a91c1fb] — 2026-09-06 · 🧪 Testing
+
+- Release testing-20260906-a91c1fb para entorno testing
+
 ## [testing-20260906-400c300] — 2026-09-06 · 🧪 Testing
 
 - Release testing-20260906-400c300 para entorno testing
