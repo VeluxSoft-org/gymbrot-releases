@@ -1,5 +1,9 @@
 # Changelog
 
+## [testing-20260908-613d900] — 2026-09-08 · 🧪 Testing
+
+- Release testing-20260908-613d900 para entorno testing
+
 ## [testing-20260908-7340d57] — 2026-09-08 · 🧪 Testing
 
 - Release testing-20260908-7340d57 para entorno testing
