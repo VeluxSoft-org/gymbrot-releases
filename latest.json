@@ -1,8 +1,8 @@
 {
   "environment": "production",
-  "version": "0.1.0",
-  "downloadUrl": "https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/v0.1.0/GymBrot_0.1.0_x64-setup.exe",
-  "installerName": "GymBrot_0.1.0_x64-setup.exe",
-  "timestamp": "2026-09-08T22:31:28.462Z",
-  "sha256": "3b65f58db71de3ed600806e6880629847b7c973434c9906f86289dcd8286a616"
+  "version": "v0.2.0",
+  "downloadUrl": "https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/v0.2.0/GymBrot_0.2.0_x64-setup.exe",
+  "installerName": "GymBrot_0.2.0_x64-setup.exe",
+  "timestamp": "2026-10-07T17:53:37.366Z",
+  "sha256": "da2e6d8cfce9f40ad2d782812fbe1161c388480a6ec5269c6111fa71a7059b31"
 }

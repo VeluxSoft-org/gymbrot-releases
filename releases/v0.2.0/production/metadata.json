@@ -1,0 +1,11 @@
+{
+  "version": "v0.2.0",
+  "environment": "production",
+  "platform": "windows-x64",
+  "installerType": "nsis",
+  "builtAt": "2026-10-07T17:53:37.365Z",
+  "files": [
+    "GymBrot_0.2.0_x64-setup.exe",
+    "checksums.txt"
+  ]
+}
