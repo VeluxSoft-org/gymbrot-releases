@@ -8,8 +8,13 @@ Descargas oficiales de **Gymbrot** para Windows Desktop.
 
 | Versión | Windows |
 |---------|---------|
-| Production | [Descargar](https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/v0.1.0/GymBrot_0.1.0_x64-setup.exe) |
-| Testing | [Descargar](https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/testing-20260908-613d900/Gymbrot.TEST_0.1.0_x64-setup.exe) |
+| **Production** | [0.1.0](https://github.com/VeluxSoft-org/gymbrot-releases/releases/download/v0.1.0/GymBrot_0.1.0_x64-setup.exe) |
+
+## Portal de descargas
+
+- Portal: https://veluxsoft-org.github.io/gymbrot-releases/
+- Última production: https://veluxsoft-org.github.io/gymbrot-releases/latest/
+- Catálogo JSON: https://veluxsoft-org.github.io/gymbrot-releases/releases/index.json
 
 ## 🔍 Verificar Integridad
 
@@ -17,7 +22,7 @@ Cada descarga incluye un archivo `checksums.txt` con el hash SHA256.
 
 ```powershell
 # Windows PowerShell:
-certUtil -hashfile Gymbrot.exe SHA256
+certUtil -hashfile GymBrot_0.1.0_x64-setup.exe SHA256
 # Compara con el valor en checksums.txt
 ```
 

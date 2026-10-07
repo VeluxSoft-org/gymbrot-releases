@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gymbrot — Descargas</title>
+    <meta
+      name="description"
+      content="Descargas oficiales del instalador Gymbrot para Windows."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4f6f8;
+        --surface: #ffffff;
+        --text: #15202b;
+        --muted: #5b6b7c;
+        --accent: #0f6e56;
+        --accent-hover: #0b5744;
+        --chip: #e8f5f0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background:
+          radial-gradient(circle at top left, #dcefe8 0, transparent 42%),
+          linear-gradient(180deg, #eef3f7 0%, var(--bg) 100%);
+        color: var(--text);
+        min-height: 100vh;
+      }
+      main {
+        width: min(880px, calc(100% - 2rem));
+        margin: 0 auto;
+        padding: 3rem 0 4rem;
+      }
+      h1 {
+        margin: 0 0 0.35rem;
+        font-size: clamp(1.8rem, 4vw, 2.4rem);
+        letter-spacing: -0.03em;
+      }
+      .lead {
+        margin: 0 0 1.75rem;
+        color: var(--muted);
+        max-width: 42rem;
+        line-height: 1.5;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-bottom: 1.75rem;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        border: 0;
+        border-radius: 0.55rem;
+        padding: 0.7rem 1.05rem;
+        font: inherit;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background: var(--accent-hover);
+      }
+      .btn-ghost {
+        background: var(--surface);
+        color: var(--text);
+        border: 1px solid #c9d4de;
+      }
+      .tabs {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+      .tab {
+        background: transparent;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        padding: 0.4rem 0.9rem;
+        color: var(--muted);
+        font: inherit;
+        cursor: pointer;
+      }
+      .tab[aria-selected="true"] {
+        background: var(--chip);
+        color: var(--accent);
+        border-color: #b7e0d1;
+        font-weight: 600;
+      }
+      .panel {
+        background: var(--surface);
+        border: 1px solid #d5dee7;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(21, 32, 43, 0.06);
+      }
+      .row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 1rem;
+        align-items: center;
+        padding: 1rem 1.15rem;
+        border-top: 1px solid #e6edf3;
+      }
+      .row:first-child {
+        border-top: 0;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem 0.75rem;
+        align-items: center;
+      }
+      .version {
+        font-weight: 700;
+        font-size: 1.05rem;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        padding: 0.15rem 0.55rem;
+        background: var(--chip);
+        color: var(--accent);
+        font-size: 0.78rem;
+        font-weight: 600;
+      }
+      .date {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      .empty,
+      .error,
+      .loading {
+        padding: 1.5rem;
+        color: var(--muted);
+      }
+      .error {
+        color: #9f1239;
+      }
+      footer {
+        margin-top: 1.5rem;
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+      footer a {
+        color: var(--accent);
+      }
+      @media (max-width: 640px) {
+        .row {
+          grid-template-columns: 1fr;
+        }
+        .btn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Gymbrot</h1>
+      <p class="lead">
+        Descargas oficiales del instalador para Windows. El archivo .exe se sirve
+        desde GitHub Releases (no desde un VPS). Usa el botón de última versión
+        o elige una versión concreta abajo.
+      </p>
+
+      <div class="actions">
+        <a class="btn btn-primary" id="latest-btn" href="./latest/">
+          Descargar última versión
+        </a>
+        <a class="btn btn-ghost" href="./releases/index.json">Ver index.json</a>
+      </div>
+
+      <section class="panel" id="list" aria-live="polite">
+        <p class="loading">Cargando versiones…</p>
+      </section>
+
+      <footer>
+        Repositorio de distribución:
+        <a href="https://github.com/VeluxSoft-org/gymbrot-releases">gymbrot-releases</a>.
+        Para integrar en una web futura: consume
+        <code>releases/index.json</code> o el redirect
+        <code>/latest/</code>.
+      </footer>
+    </main>
+
+    <script>
+      (function () {
+        var listEl = document.getElementById("list");
+        var latestBtn = document.getElementById("latest-btn");
+        var currentEnv = "production";
+
+        function formatDate(iso) {
+          if (!iso) return "—";
+          try {
+            return new Date(iso).toLocaleDateString("es-DO", {
+              year: "numeric",
+              month: "short",
+              day: "numeric",
+            });
+          } catch (_) {
+            return iso;
+          }
+        }
+
+        function entriesForEnv(index, env) {
+          var versions = index.versions || {};
+          var rows = [];
+          Object.keys(versions).forEach(function (version) {
+            var entry = versions[version] && versions[version][env];
+            if (!entry || !entry.downloadUrl) return;
+            rows.push({
+              version: version,
+              timestamp: entry.timestamp,
+              downloadUrl: entry.downloadUrl,
+              installerName: entry.installerName || "",
+            });
+          });
+          rows.sort(function (a, b) {
+            return String(b.timestamp).localeCompare(String(a.timestamp));
+          });
+          return rows;
+        }
+
+        function render(index) {
+          var rows = entriesForEnv(index, currentEnv);
+          latestBtn.href = "./latest/";
+
+          if (!rows.length) {
+            listEl.innerHTML =
+              '<p class="empty">No hay versiones publicadas.</p>';
+            return;
+          }
+
+          listEl.innerHTML = rows
+            .map(function (row) {
+              return (
+                '<article class="row">' +
+                '<div class="meta">' +
+                '<span class="version">' +
+                row.version +
+                "</span>" +
+                '<span class="chip">production</span>' +
+                '<span class="date">' +
+                formatDate(row.timestamp) +
+                "</span>" +
+                "</div>" +
+                '<a class="btn btn-primary" href="' +
+                row.downloadUrl +
+                '">Descargar</a>' +
+                "</article>"
+              );
+            })
+            .join("");
+        }
+
+        fetch("./releases/index.json", { cache: "no-store" })
+          .then(function (res) {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            return res.json();
+          })
+          .then(function (index) {
+            window.__GYMBROT_INDEX__ = index;
+            render(index);
+          })
+          .catch(function (err) {
+            listEl.innerHTML =
+              '<p class="error">No se pudo cargar el catálogo de versiones. ' +
+              String(err && err.message ? err.message : err) +
+              "</p>";
+          });
+      })();
+    </script>
+  </body>
+</html>
