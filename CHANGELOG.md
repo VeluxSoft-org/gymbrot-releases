@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.2.0] — 2026-10-24 · Production
+
+- Release v0.2.0 (production)
+
 ## [v0.2.0] — 2026-10-07 · Production
 
 - Release v0.2.0 (production)
